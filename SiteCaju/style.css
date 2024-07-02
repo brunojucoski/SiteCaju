@@ -362,7 +362,7 @@ section{
     overflow: hidden;
     display: flex;
     border-radius: 2rem;
-    border: 3px solid var(--main-color);
+    /* border: 3px solid var(--main-color); */
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
@@ -454,7 +454,7 @@ section{
     justify-content: center;
     text-align: center;
     background-color: var(--bg-color);
-    border: 2px solid var(--main-color);
+    /* border: 2px solid var(--main-color); */
     border-radius: 4rem;
     gap: 2rem;
     padding: 5rem 2rem;
@@ -554,6 +554,10 @@ section{
     border: 2px solid var(--main-color);
     margin: 1.5rem 0;
     resize: none;
+}
+
+.input-group{
+    display:block;
 }
 
 .input-group-2 p{
